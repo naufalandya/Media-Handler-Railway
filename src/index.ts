@@ -14,7 +14,7 @@ const PORT = Bun.env.PORT
 
 app.use('/*', async (c, next) => {
   const corsMiddleware = cors({
-    origin: "http://localhost:5173",
+    origin: "https://f5b42b21.photo-management-system.pages.dev",
     allowHeaders: ['Origin', 'Content-Type', 'Authorization'],
     allowMethods: ['GET', 'OPTIONS', 'POST', 'PUT', 'DELETE'],
     credentials: true,
