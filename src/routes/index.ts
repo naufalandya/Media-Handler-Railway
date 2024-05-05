@@ -1,5 +1,2 @@
-export { default as userRoute } from "./user.route"
-export { default as authRoute } from "./auth.route"
-export { default as apiRoute } from "./api-doc.route"
 export { default as mediaRoute} from "./media.route"
 export { default as imageKitRoute} from "./imagekit.route"
